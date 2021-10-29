@@ -30,6 +30,7 @@ body, .main {
   background-image: url("../img/main.jpg");
   background-position: fixed;
   background-repeat: no-repeat;
+  background-atachment: cover;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 3px 3px 5px 1px;
