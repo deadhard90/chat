@@ -1,10 +1,13 @@
 @media screen and (max-width: 992px) {
   .main {
-    width: 100%;
+    width: 100vh;
+    height: 100vh;
+    box-shadow: none;
+    border-radius: none;
   }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 991px) {
   .main {
   width: 400px;
   }
@@ -28,7 +31,6 @@ body, .main {
   background-position: fixed;
   background-repeat: no-repeat;
   border-radius: 10px;
-  width: 400px;
   overflow: hidden;
   box-shadow: 3px 3px 5px 1px;
 }
